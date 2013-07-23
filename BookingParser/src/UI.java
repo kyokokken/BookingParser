@@ -51,6 +51,9 @@ public class UI extends JFrame {
 		txtChildrens = new JTextField();
 		panel.add(txtChildrens);
 		txtChildrens.setColumns(10);
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		pack();
 	}
 
 }
